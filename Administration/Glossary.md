@@ -1,6 +1,10 @@
 # Project Glossary
 
 ***
+#### ***ESC*** - Electronic Speed Controller
+>An electronic device that regulates the speed, direction, and sometimes braking of an electric motor. It is most 
+> commonly used to drive three-phase brushless DC (BLDC) motors, which are widely used in applications such as drones, 
+> unmanned vehicles, electric propulsion systems, and robotics.
 
 #### ***MOB*** - Man Overboard
 > A maritime emergency situation in which a person has fallen off a vessel into the water. It requires an immediate 
