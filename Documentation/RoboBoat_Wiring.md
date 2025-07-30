@@ -27,8 +27,30 @@ The ERS Cyclone passes all power through this fuse box before connecting to any 
 |:---------:|:-------------:|:-------------:|
 |     1     |    Relay 2    |     25 A      |
 |     2     |               |               |
-|     3     |    Relay 1    |               |
+|     3     |    Relay 1    |     25 A      |
 |     4     |               |               |
 |     5     |               |               |
 |     6     |               |               |
+
+### Relay 1 & 2
+
+<img src="Images/RoboBoat_Wiring/Relays.png" alt="Relays" width="600" style="border:1px solid #ccc;">
+
+| Color  | Function | Description                                 |
+|:------:|:--------:|:--------------------------------------------|
+|  Red   |  VCC_IN  | Power from the Fuse Box                     |
+| Black  |  GND_IN  | Ground from the Fuse Box Common Ground      |
+|  Blue  | VCC_OUT  | Power to the FWD ESC                        |
+| Yellow | GND_OUT  | Ground (Open)                               |
+| White  |   CTRL   | Actuator Signal from EStop and Relay Module |
+
+### Relay Module
+
+<img src="Images/RoboBoat_Wiring/RelayModule.png" alt="Relays" width="600" style="border:1px solid #ccc;">
+
+The relay module is part of the signaling circuit going to the Relay 1 & 2. The signaling circuit has two possible 
+breaks, the first is from the hardware Emgerncy Stop Button on the outside of the hull, the second is this relay. 
+This relay needs a signal from a low level processor, and that signal is delivered from the highlighted brown wire 
+seen above.
+
 
