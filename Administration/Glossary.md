@@ -6,6 +6,30 @@
 > commonly used to drive three-phase brushless DC (BLDC) motors, which are widely used in applications such as drones, 
 > unmanned vehicles, electric propulsion systems, and robotics.
 
+#### ***IDE*** - Integrated Development Environment
+>  A software application that provides programmers with a set of tools in one place to write, edit, debug, and manage 
+> code efficiently. It usually includes a source code editor, a compiler or interpreter, a debugger, and often features 
+> like version control integration and project management.
+
+#### ***Machine*** - Computing System
+> A term commonly used to refer to a **computer or computing system**, often in contexts where its role, function, or
+> relationship to other systems is more important than its physical form. The word emphasizes the computer as a unit of
+> execution rather than as a personal device.
+>
+> **Common Uses:**  
+> • **Local Machine** – the computer a user is directly working on.  
+> • **Remote Machine** – a computer accessed over a network (e.g., via SSH).  
+> • **Virtual Machine (VM)** – a software-emulated computer that runs inside another system.  
+> • **Development Machine (Dev Machine)** – the computer where code is written, tested, and compiled.  
+> • **Host Machine** – the system that provides resources or runs software for another system (often contrasted with a
+>   *target machine*).  
+> • **Target Machine** – the hardware or system where the final application is deployed and executed.
+>
+> **Notes:**  
+> • In technical writing, “machine” is preferred when distinguishing multiple computers or roles in a workflow.  
+> • In everyday use, “computer” or “PC” is more common.
+
+
 #### ***MOB*** - Man Overboard
 > A maritime emergency situation in which a person has fallen off a vessel into the water. It requires an immediate 
 > response to locate and recover the individual before they are injured, lost, or exposed to dangerous environmental 
