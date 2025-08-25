@@ -30,9 +30,10 @@ Development Machine.
 
 ```mermaid
 flowchart TD
-  A["Development Machine<br/>(Laptop/Workstation)"]
-  B["USV Onboard Computer<br/>(Target Machine)"]
-  A -->|Deploy code (scp, rsync, Docker, SD)| B
-  B -->|Logs, telemetry, video| A
+  A["Development Machine (Laptop/Workstation)"]
+  B["USV Onboard Computer (Target Machine)"]
+  A -->|"Deploy code: scp, rsync, Docker, SD"| B
+  B -->|"Logs, telemetry, video"| A
+
 
 
