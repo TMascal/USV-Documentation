@@ -25,4 +25,9 @@ working in Senior Design.
 
 #### OS Setup Options
 As part of the development process, you will need to have access to a UNIX based operating system (OS). The reccomended 
-OS for ROS2 Humble is Ubuntu 22.04 LTS. 
+OS for ROS2 Humble is Ubuntu 22.04 LTS. To accomplish this you have generally four options:
+
+1. Dual-boot System
+2. Virtual Machine
+3. WSL - Windows Subsystem for Linux
+4. Docker Containers
