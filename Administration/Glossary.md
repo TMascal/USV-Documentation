@@ -11,6 +11,9 @@
 > code efficiently. It usually includes a source code editor, a compiler or interpreter, a debugger, and often features 
 > like version control integration and project management.
 
+#### ***LTS*** - Long-Term Support
+> A stability-focused release that gets security and critical bug fixes (no new features) for an extended period.
+
 #### ***Machine*** - Computing System
 > A term commonly used to refer to a **computer or computing system**, often in contexts where its role, function, or
 > relationship to other systems is more important than its physical form. The word emphasizes the computer as a unit of
