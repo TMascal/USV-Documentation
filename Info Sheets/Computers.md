@@ -34,6 +34,11 @@ flowchart TD
   B["USV Onboard Computer (Target Machine)"]
   A -->|"Deploy code: scp, rsync, Docker, SD"| B
   B -->|"Logs, telemetry, video"| A
+```
 
+***
+## Architecture
 
+### x86
 
+### arm64
