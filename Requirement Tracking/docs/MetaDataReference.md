@@ -1,14 +1,14 @@
 # ID
-| Aspect     | Guidance                                                            | Example                              |     |     |     |     |                           |   |
-|------------|---------------------------------------------------------------------|--------------------------------------|-----|-----|-----|-----|---------------------------|---|
-| Purpose    | Stable, unique handle for the requirement. **Never changes.**       | `SYS-NAV-0012`                       |     |     |     |     |                           |   |
-| Location   | Front matter **and** file name (file name is authoritative).        | `requirements/SYS-NAV-0012.md`       |     |     |     |     |                           |   |
-| Format     | `CLASS-DOMAIN-####` (4 digits).                                     | `IFC-COMM-0021`                      |     |     |     |     |                           |   |
-| Classes    | `STKH` \| `SYS` \| `SUB` \| `IFC` \| `SAF` \| `SEC` \| `CON`        | `SAF-HULL-0005`                      |     |     |     |     |                           |   |
-| Domain     | 2–8 uppercase letters (your subsystems list).                       | `NAV`, `PWR`, `CTRL`, `COMM`, `HULL` |     |     |     |     |                           |   |
-| Numbering  | **Counts within the prefix bucket** (`SYS-NAV-*`, `IFC-COMM-*`, …). | `SYS-NAV-0001`, `SYS-NAV-0002`       |     |     |     |     |                           |   |
-| Validation | STKH                                                                | SYS                                  | SUB | IFC | SAF | SEC | CON)-\[A-Z]{2,8}-\d{4}$\` | — |
-| Don’t      | Rename/reuse IDs; encode dates/priority in the ID.                  | —                                    |     |     |     |     |                           |   |
+| Aspect     | Guidance                                                            | Example                              | 
+|------------|---------------------------------------------------------------------|--------------------------------------|
+| Purpose    | Stable, unique handle for the requirement. **Never changes.**       | `SYS-NAV-0012`                       |
+| Location   | Front matter **and** file name (file name is authoritative).        | `requirements/SYS-NAV-0012.md`       |
+| Format     | `CLASS-DOMAIN-####` (4 digits).                                     | `IFC-COMM-0021`                      |
+| Classes    | `STKH` \| `SYS` \| `SUB` \| `IFC` \| `SAF` \| `SEC` \| `CON`        | `SAF-HULL-0005`                      | 
+| Domain     | 2–8 uppercase letters (your subsystems list).                       | `NAV`, `PWR`, `CTRL`, `COMM`, `HULL` | 
+| Numbering  | **Counts within the prefix bucket** (`SYS-NAV-*`, `IFC-COMM-*`, …). | `SYS-NAV-0001`, `SYS-NAV-0002`       |
+| Validation | STKH                                                                | SYS                                  |
+| Don’t      | Rename/reuse IDs; encode dates/priority in the ID.                  | —                                    |
 
 
 
