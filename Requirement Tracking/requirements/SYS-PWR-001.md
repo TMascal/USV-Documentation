@@ -21,3 +21,4 @@ This is because the Mechanical Engineering Department provides 24 V batteries as
 
 ## Change History
 - 2025-09-02: Created
+- 2025-09-11: Added Test
