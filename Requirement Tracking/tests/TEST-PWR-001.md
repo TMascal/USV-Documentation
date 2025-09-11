@@ -7,7 +7,6 @@ owner: "<Name / Team>"
 requirement_ref: "SYS-PWR-001"
 verification_method: "Test"
 acceptance_criteria: "Every measured voltage at the system's main power input is between 20.0 V and 29.2 V (inclusive) while powered by a 24 V drill battery."
-configuration_item: "<UUT PN/SN>"
 location: "<Lab/Bay>"
 ---
 
