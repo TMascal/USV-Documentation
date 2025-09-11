@@ -17,7 +17,7 @@ The system shall utilize 24 V at the main power input.
 This is because the Mechanical Engineering Department provides 24 V batteries as an approved power source for the project.
 
 ## Links
-- **Tests:** [T-NAV-045](../tests/T-NAV-045.md)
+- **Tests:** [TEST-PWR-001](../tests/TEST-PWR-001.md)
 
 ## Change History
 - 2025-09-02: Created
