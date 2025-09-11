@@ -17,7 +17,7 @@ Prove the system uses a 24 V class input by **measuring the voltage at the main 
 # 2) What you need
 - **24 V drill battery** (fully charged) and the **battery-to-system adapter/cable** (with inline fuse if available)
 - **Digital Multimeter (DMM)**, DC volts
-- The **system (UUT)**
+- The **system (USV)**
 
 # 3) Safety (read this)
 - Batteries can supply high current. **Check polarity**, avoid shorting leads, and keep metal objects away.
