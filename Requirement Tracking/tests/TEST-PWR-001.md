@@ -3,11 +3,11 @@ id: "T-NAV-045"
 title: "Power Input Check (24V Drill Battery) — SYS-PWR-001"
 type: "test_procedure"
 status: "Draft"            # Draft | Ready | Executed | Archived
-owner: "<Name / Team>"
+owner: "MOB-SEA"
 requirement_ref: "SYS-PWR-001"
 verification_method: "Test"
 acceptance_criteria: "Every measured voltage at the system's main power input is between 20.0 V and 29.2 V (inclusive) while powered by a 24 V drill battery."
-location: "<Lab/Bay>"
+location: "LB-172"
 ---
 
 # 1) Goal
