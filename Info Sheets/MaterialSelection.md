@@ -57,6 +57,26 @@ Aluminium alloys like 6061, 5083, and 5086 benefit from **anodization**, which b
 - Use sacrificial anodes (zinc, aluminium, magnesium).
 - Apply protective coatings where needed.
 
+### Galvanic Corrosion Prevention
+
+**Passivated Stainless Steel**
+- Stainless steels such as 316 and duplex alloys form a thin, stable oxide film (chromium oxide) when passivated.
+- This film reduces the electrochemical potential difference with other materials, lowering the driving force for galvanic corrosion.
+- However, the passive layer can break down in chloride-rich environments (like seawater), especially in crevices, leading to localized attack.
+- For this reason, relying solely on passivation without design safeguards is risky in marine applications.
+
+**Aluminium vs. Stainless Steel Hardware**
+- Aluminium (especially marine alloys like 5083 and 5086) sits far more anodic than stainless steels in the galvanic series.
+- When aluminium structures (masts, hull plating, fittings) are joined with stainless steel fasteners, the aluminium will preferentially corrode if there is a conductive seawater path.
+- Mitigation strategies include:
+    - **Isolators**: Use non-conductive washers, gaskets, or sleeves (e.g., nylon or polymer-coated hardware).
+    - **Barrier Coatings**: Apply sealants, anodization, or epoxy coatings on the aluminium surfaces before bolting.
+    - **Drainage and Ventilation**: Reduce stagnant seawater at the interface to minimize crevice and galvanic conditions.
+    - **Regular Inspection**: Replace or re-coat corroded fastener areas before structural compromise.
+
+In practice, the most effective approach is a combination of **material isolation** and **coatings**, as sacrificial anodes alone often do not sufficiently protect aluminium in direct contact with stainless steel fasteners.
+
+
 ---  
 
 ## References
