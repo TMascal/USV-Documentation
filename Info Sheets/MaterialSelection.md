@@ -61,8 +61,8 @@ Aluminium alloys like 6061, 5083, and 5086 benefit from **anodization**, which b
 
 ## References
 
-1. Fontana, M. G. *Corrosion Engineering*, 3rd Edition.
-2. Uhlig & Revie, *Corrosion and Corrosion Control*, 4th Edition.
+1. [Fontana, M. G. *Corrosion Engineering*, 3rd Edition.](https://erau.primo.exlibrisgroup.com/permalink/01ERAU_INST/15kv1ds/alma99358673405946)
+2. [Uhlig & Revie, *Corrosion and Corrosion Control*, 4th Edition.](https://erau.primo.exlibrisgroup.com/permalink/01ERAU_INST/osfi0l/cdi_crossref_primary_10_1023_A_1004112503435)
 3. MatWeb Material Property Data Sheets.
 4. Rolled Alloys, *2205 Duplex Stainless Steel Data Book*.
 5. Penn Stainless, *Duplex 2205 Grade Information*.
