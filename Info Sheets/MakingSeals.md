@@ -1,10 +1,4 @@
 # Guide to O-Rings, Gaskets, and Other Seals
-
-**Context:**  
-This document provides guidance on how to implement O-rings and other sealing solutions (such as gaskets, lip seals, and face seals) into Unmanned Surface Vehicle (USV) designs.
-
-[Link to Parker O-Ring Manual (ORD-5700)](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf)
-
 ---
 
 ## Purpose Statement
@@ -28,51 +22,119 @@ The purpose of this guide is to assist USV designers, engineers, and systems int
 
 ## 1. Types of Seals
 
-*(To be populated with descriptions and use-cases of each type: O-rings, flat gaskets, etc.)*
+**O-Rings:** Circular elastomeric seals widely used for static and dynamic applications. In USVs, they are commonly applied in sensor housings, electronic enclosures, and shaft seals.
+
+**Gaskets:** Flat seals, often cut from sheet material, used between flanges or mating surfaces. Useful for large access panels, structural joints, and where bolt preload is uneven.
+
+**Lip Seals:** Also known as radial shaft seals, designed to seal rotating or reciprocating shafts. Applied in propulsion systems or rotary joints on USVs.
+
+**Face Seals:** Seals compressed between flat surfaces (end caps, hatches, bulkheads). O-rings in face seal glands fall into this category.
 
 ---
 
 ## 2. Materials and Compatibility
 
-*(Discussion of elastomers, plastics, metals; compatibility with seawater, fuels, oils, UV, temperature, pressure.)*
+**Elastomers:**
+- **NBR (Nitrile):** Good oil/fuel resistance; limited seawater and UV resistance.
+- **EPDM:** Excellent seawater and UV resistance; not recommended for petroleum oils.
+- **FKM (Viton):** High chemical resistance, wide temperature range, but more costly.
+- **Silicone:** Excellent thermal range; poor abrasion resistance.
+
+**Plastics & Composites:**
+- **PTFE:** Excellent chemical resistance, low friction, but limited elasticity.
+- **UHMWPE:** High wear resistance; good in sliding gasket applications.
+
+**Metals:**
+- **Soft copper or aluminum gaskets:** Used in high-pressure fittings.
+
+**Compatibility Considerations:**
+- **Seawater:** EPDM and FKM perform best.
+- **Fuel/Oil exposure:** Use NBR or FKM.
+- **High Temperature (>150 °C):** Prefer FKM or silicone.
 
 ---
 
 ## 3. Seal Profiles, Sizes, and Standards
 
 ### O-Ring Face Seal Standard
-<img src="Images/MakingSeals/Parking Face Seal Glands.png" alt="Relays" width="900" style="border:1px solid #ccc;">
 
+The Parker standard face seal gland (Design Chart 4-3) defines recommended groove dimensions, squeeze values, and radii for O-ring face seals. These are widely used in marine and aerospace designs to ensure reliable sealing under static face loading.
+
+**Typical Applications in USVs:**
+- Sensor housing windows
+- Electronics pressure hull end-caps
+- Access covers and removable hatches
+
+<img src="Images/MakingSeals/Parking%20Face%20Seal%20Glands.png" alt="Face Seal Glands" width="600" style="border:1px solid #ccc;">
+
+**Simplified Cross-Section Reference (common USV sizes):**
+
+| Cross Section Nominal | Gland Depth (in) | Typical Squeeze % | Groove Width for Liquids (in) |
+|------------------------|------------------|------------------|-------------------------------|
+| 1/16 (0.070")          | 0.054            | 23%              | 0.107                         |
+| 1/8 (0.139")           | 0.101            | 20–30%           | 0.177                         |
+| 3/16 (0.210")          | 0.152            | 21%              | 0.270                         |
+
+> **Design Note:** Always break corners with ~0.005" radius, ensure smooth surface finish (≤32 µin for liquids), and apply light lubricant before installation to avoid abrasion. Incorrect gland dimensions or rough surfaces can cause premature O-ring extrusion, compression set, or tearing.
+
+*For complete dimension charts and tolerance specifications, see the [Parker O-Ring Manual (ORD-5700)](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf).*
 
 ---
 
 ## 4. Installation Guidelines and Hardware Interfaces
 
-*(Surface finish, grooves, gland design, compression, torquing, lubrication, alignment issues, tool use.)*
+- **Surface Finish:** ≤32 µin Ra for liquid seals, ≤63 µin Ra for gas.
+- **Groove Design:** Ensure correct gland depth and width for specified squeeze.
+- **Compression:** Target 20–30% squeeze on elastomers.
+- **Lubrication:** Use silicone grease or Parker O-lube to reduce installation damage.
+- **Torquing:** Apply even torque on bolts to avoid uneven squeeze.
+- **Alignment:** Ensure concentric alignment of flanges before final tightening.
 
 ---
 
 ## 5. Failure Modes and Diagnostics
 
-*(Common issues like extrusion, abrasion, chemical attack, compression set, thermal aging, swelling; how to detect and prevent.)*
+**Common Issues:**
+- **Extrusion:** O-ring material forced into clearance gaps under pressure; mitigated with backup rings.
+- **Abrasion:** Caused by dynamic surfaces or poor lubrication.
+- **Chemical Attack:** Swelling, cracking, or softening from incompatible fluids.
+- **Compression Set:** Permanent deformation after long-term compression.
+- **Thermal Aging:** Cracking and hardening from prolonged heat exposure.
+- **Swelling:** Caused by fluid absorption.
+
+**Diagnostics:**
+- Inspect seals for flattening, cracks, or glossy surfaces.
+- Check grooves for sharp edges or contamination.
+- Replace seals at the first sign of deterioration.
 
 ---
 
 ## 6. Design Best Practices for USVs
 
-*(Special considerations for marine operations: biofouling, pressure variation, salt corrosion, vibration, dynamic interfaces.)*
+- **Material Selection:** Choose elastomers with proven seawater and UV resistance (EPDM, FKM).
+- **Galvanic Isolation:** Electrically isolate stainless fasteners from aluminum housings to reduce galvanic corrosion.
+- **Redundancy:** Where failure is critical, use double O-ring barriers.
+- **Pressure Variation:** Use venting or compensators to avoid pressure differentials.
+- **Vibration Resistance:** Avoid designs that rely on adhesive sealing; prefer compression seals.
+- **Biofouling Resistance:** Use anti-fouling coatings around seal areas to prevent marine growth interference.
 
 ---
 
 ## 7. Maintenance, Inspection, and Replacement Strategies
 
-*(Inspection intervals, signs of seal degradation, replacement procedures, spare parts management.)*
+- **Inspection Intervals:** Every 6–12 months depending on usage and exposure.
+- **Signs of Degradation:** Flattening, cracks, brittleness, swelling.
+- **Replacement:** Always replace seals during major disassembly; never reuse old O-rings.
+- **Spare Parts Management:** Stock common sizes in labeled, climate-controlled storage bags.
+- **Field Repairs:** Include spare seals and lubricant in deployment kits.
 
 ---
 
 ## References and Further Reading
 
 - [Parker O-Ring Manual ORD-5700](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf)
+- Fontana, M.G., *Corrosion Engineering*, 3rd Edition.
+- ASM Handbook, Vol. 8: *Mechanical Testing and Evaluation*.
 
 ---
 
@@ -81,4 +143,4 @@ Markdown formatting and copyediting done with the aid of OpenAI ChatGPT-5. Conte
 Tim Mascal, September 2025.
 
 *Prepared by: Embry-Riddle Department of Mechanical Engineering*  
-*Last Updated: September 22, 2025*  
+*Last Updated: September 23, 2025*  
