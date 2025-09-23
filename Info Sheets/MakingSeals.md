@@ -40,7 +40,9 @@ The purpose of this guide is to assist USV designers, engineers, and systems int
 
 ## 3. Seal Profiles, Sizes, and Standards
 
-*(Reference to standards from Parker manual, AS568, metric standards, tolerances, cross-section profiles, etc.)*
+### O-Ring Face Seal Standard
+<img src="Images/MakingSeals/Parking Face Seal Glands.png" alt="Relays" width="900" style="border:1px solid #ccc;">
+
 
 ---
 
