@@ -1,9 +1,20 @@
 # Guide to O-Rings, Gaskets, and Other Seals
+
+**Context:**  
+This document provides guidance on how to implement O-rings and other sealing solutions (such as gaskets, lip seals, 
+and face seals) into Unmanned Surface Vehicle (USV) designs.
+
+[Link to Parker O-Ring Manual (ORD-5700)](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf)
+
 ---
 
 ## Purpose Statement
 
-The purpose of this guide is to assist USV designers, engineers, and systems integrators in selecting, specifying, and applying sealing components—especially O-rings, gaskets, and related seals—to ensure water-tight, pressure-tight, corrosion-resistant, and durable interfaces. The document provides best practices, material considerations, installation techniques, common failure modes, and design tips to enhance seal performance, reliability, and maintainability in marine environments.
+The purpose of this guide is to assist USV designers, engineers, and systems integrators in selecting, specifying, and 
+applying sealing components—especially O-rings, gaskets, and related seals—to ensure water-tight, pressure-tight, 
+corrosion-resistant, and durable interfaces. The document provides best practices, material considerations, 
+installation techniques, common failure modes, and design tips to enhance seal performance, reliability, and 
+maintainability in marine environments.
 
 ---
 
@@ -22,14 +33,23 @@ The purpose of this guide is to assist USV designers, engineers, and systems int
 
 ## 1. Types of Seals
 
-**O-Rings:** Circular elastomeric seals widely used for static and dynamic applications. In USVs, they are commonly applied in sensor housings, electronic enclosures, and shaft seals.
+**O-Rings:** Circular elastomeric seals widely used for static and dynamic applications. In USVs, they are commonly 
+applied in sensor housings, electronic enclosures, and shaft seals.
 
-**Gaskets:** Flat seals, often cut from sheet material, used between flanges or mating surfaces. Useful for large access panels, structural joints, and where bolt preload is uneven.
+**Gaskets:** Flat seals, often cut from sheet material, used between flanges or mating surfaces. Useful for large 
+access panels, structural joints, and where bolt preload is uneven.
 
-**Lip Seals:** Also known as radial shaft seals, designed to seal rotating or reciprocating shafts. Applied in propulsion systems or rotary joints on USVs.
+**Lip Seals:** Also known as radial shaft seals, designed to seal rotating or reciprocating shafts. Applied in 
+propulsion systems or rotary joints on USVs.
 
-**Face Seals:** Seals compressed between flat surfaces (end caps, hatches, bulkheads). O-rings in face seal glands fall into this category.
+**Face Seals:** Seals compressed between flat surfaces (end caps, hatches, bulkheads). O-rings in face seal glands fall 
+into this category.
 
+**Trade-Offs Between O-Rings and Gaskets:** O-rings provide compact, high-pressure sealing and energize under load, 
+making them ideal for critical, pressure-tight applications such as AUV hull access panels. However, they require 
+precise machining, smooth surface finishes, and uniform bolt preload. Gaskets, while less efficient at holding high 
+pressures, are more forgiving to uneven preload and surface irregularities, which makes them useful for large flanges, 
+access covers, or structures where machining and torque control are less exacting.
 ---
 
 ## 2. Materials and Compatibility
@@ -58,14 +78,16 @@ The purpose of this guide is to assist USV designers, engineers, and systems int
 
 ### O-Ring Face Seal Standard
 
-The Parker standard face seal gland (Design Chart 4-3) defines recommended groove dimensions, squeeze values, and radii for O-ring face seals. These are widely used in marine and aerospace designs to ensure reliable sealing under static face loading.
+The Parker standard face seal gland (Design Chart 4-3) defines recommended groove dimensions, squeeze values, and radii 
+for O-ring face seals. These are widely used in marine and aerospace designs to ensure reliable sealing under static 
+face loading.
 
 **Typical Applications in USVs:**
 - Sensor housing windows
 - Electronics pressure hull end-caps
 - Access covers and removable hatches
 
-<img src="Images/MakingSeals/Parking%20Face%20Seal%20Glands.png" alt="Face Seal Glands" width="600" style="border:1px solid #ccc;">
+<img src="Images/MakingSeals/Parking Face Seal Glands.png" alt="Face Seal Glands" width="600" style="border:1px solid #ccc;">
 
 **Simplified Cross-Section Reference (common USV sizes):**
 
@@ -96,7 +118,7 @@ The Parker standard face seal gland (Design Chart 4-3) defines recommended groov
 
 **Common Issues:**
 - **Extrusion:** O-ring material forced into clearance gaps under pressure; mitigated with backup rings.
-- **Abrasion:** Caused by dynamic surfaces or poor lubrication.
+- **Abrasion:** Caused by dynamic surfaces or poor [lubrication](https://bluerobotics.com/store/watertight-enclosures/enclosure-tools-supplies/molykote/).
 - **Chemical Attack:** Swelling, cracking, or softening from incompatible fluids.
 - **Compression Set:** Permanent deformation after long-term compression.
 - **Thermal Aging:** Cracking and hardening from prolonged heat exposure.
@@ -111,12 +133,12 @@ The Parker standard face seal gland (Design Chart 4-3) defines recommended groov
 
 ## 6. Design Best Practices for USVs
 
-- **Material Selection:** Choose elastomers with proven seawater and UV resistance (EPDM, FKM).
+- **Material Selection:** Choose elastomers with proven seawater and UV resistance (**EPDM**, FKM).
 - **Galvanic Isolation:** Electrically isolate stainless fasteners from aluminum housings to reduce galvanic corrosion.
 - **Redundancy:** Where failure is critical, use double O-ring barriers.
-- **Pressure Variation:** Use venting or compensators to avoid pressure differentials.
+- **Pressure Variation:** Use [venting](https://bluerobotics.com/learn/pressure-relief-valve-installation-and-usage/) or compensators to avoid pressure differentials.
 - **Vibration Resistance:** Avoid designs that rely on adhesive sealing; prefer compression seals.
-- **Biofouling Resistance:** Use anti-fouling coatings around seal areas to prevent marine growth interference.
+- **Biofouling Resistance:** Use antifouling coatings around seal areas to prevent marine growth interference.
 
 ---
 
@@ -133,8 +155,6 @@ The Parker standard face seal gland (Design Chart 4-3) defines recommended groov
 ## References and Further Reading
 
 - [Parker O-Ring Manual ORD-5700](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf)
-- Fontana, M.G., *Corrosion Engineering*, 3rd Edition.
-- ASM Handbook, Vol. 8: *Mechanical Testing and Evaluation*.
 
 ---
 
@@ -143,4 +163,4 @@ Markdown formatting and copyediting done with the aid of OpenAI ChatGPT-5. Conte
 Tim Mascal, September 2025.
 
 *Prepared by: Embry-Riddle Department of Mechanical Engineering*  
-*Last Updated: September 23, 2025*  
+*Last Updated: September 25, 2025*  
