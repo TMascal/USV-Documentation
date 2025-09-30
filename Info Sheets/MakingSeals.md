@@ -4,7 +4,8 @@
 This document provides guidance on how to implement O-rings and other sealing solutions (such as gaskets, lip seals, 
 and face seals) into Unmanned Surface Vehicle (USV) designs.
 
-[Link to Parker O-Ring Manual (ORD-5700)](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf)
+[Link to Parker O-Ring Manual (ORD-5700)](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf) <br>
+[Link to Gask-O-Seal® and Integral Seal™ Design Handbook](https://www.parker.com/content/dam/Parker-com/Literature/Seal-Group/CSS-5124.pdf)
 
 ---
 
