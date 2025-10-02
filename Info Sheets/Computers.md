@@ -42,3 +42,10 @@ flowchart TD
 ### x86
 
 ### arm64
+
+### Disclaimer
+Markdown formatting and copyediting done with the aid of OpenAI ChatGPT-5. Content was reviewed and curated by  
+Tim Mascal, August 2025.
+
+*Prepared by: Embry-Riddle Department of Mechanical Engineering*  
+*Last Updated: October 2, 2025*  
