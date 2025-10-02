@@ -60,6 +60,9 @@ Blue Robotics and the surrounding community has a surplus of good information fo
 #### Noteable Products: [Pelican Rugged Cases](https://www.pelican.com/us/en/products/cases/)
 
 ***
+### Waterproof Rating System
+
+***
 ### T200 Motor Analysis
 #### Step one: Proceed to the store or product page for your components. 
 For the T200 Thruster from Blue Robotics, that can be found on the Blue Robotics Web Store. It looks something like 
@@ -88,3 +91,10 @@ in environments such as salt water.
 Since the supplier provides information that tells us this product is intended to be used in an underwater environment, 
 it likely has sufficient water proofing from the factory. If we were still unsure, many suppliers have a customer or 
 engineering contact page. Where you could clarify any concerns you may have.
+
+### Disclaimer
+Markdown formatting and copyediting done with the aid of OpenAI ChatGPT-5. Content was reviewed and curated by  
+Tim Mascal, October 2025.
+
+*Prepared by: Embry-Riddle Department of Mechanical Engineering*  
+*Last Updated: October 2, 2025*  
