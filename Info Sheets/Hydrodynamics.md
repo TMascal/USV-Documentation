@@ -14,7 +14,7 @@ Thor I. Fossen’s 1st-edition handbook ties together **hydrodynamic modeling** 
 
 ---
 
-# [Chapter 7 (1st ed.): *Models for Ships, Offshore Structures, and Underwater Vehicles*](Info Sheets/Additional References/Handbook Marine Craft Hydrodynamic and Motion Control Chapter 7.pdf) — what’s inside & how to use it for USVs
+# [Chapter 7 (1st ed.): *Models for Ships, Offshore Structures, and Underwater Vehicles*](https://erau.primo.exlibrisgroup.com/permalink/01ERAU_INST/1g14fpf/cdi_skillsoft_books24x7_bke00041700) — what’s inside & how to use it for USVs
 
 **What Chapter 7 gives you**
 
