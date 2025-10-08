@@ -55,7 +55,7 @@ Aluminium alloys like 6061, 5083, and 5086 benefit from **anodization**, which b
 - Pair metals close on the galvanic series.
 - Electrically isolate dissimilar metals.
 - Use sacrificial anodes (zinc, aluminium, magnesium).
-- Apply protective coatings where needed.
+- Apply [protective coatings](https://bluerobotics.com/store/watertight-enclosures/enclosure-tools-supplies/tef-gel-anti-corrosion-lubricant/) where needed.
 
 ### Galvanic Corrosion Prevention
 
