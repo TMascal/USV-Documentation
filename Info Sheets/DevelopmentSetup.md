@@ -27,9 +27,30 @@ Remember, more details can be found inside the user manual linked above, or in y
 router configures itself for the first time.
 3. Optional: If this travel router is being reused, it may be necessary to perform a factory reset to erase the configuration 
 from a previous user. This can be done by pressing and holding for 6 seconds until the indicator LED blinks red. This should
-be done if the Router is not visible on your Laptops Wifi.
-4. Once the LED is solid red, you can connect the the router Network via Wifi or Ethernet. The password is found on the bottom of the router.
-<img src="../Documentation/Images/DevelopmentSetup/WifiConnection.png" alt="Face Seal Glands" width="600" style="border:1px solid #ccc;">
+be done if the Router is not visible on your Laptops Wi-Fi.
+4. Once the LED is solid red, you can connect the router Network via Wi-Fi or Ethernet. The password is found on the bottom of the router.
+<img src="../Documentation/Images/DevelopmentSetup/WifiConnection.png" alt="Wifi Example" width="600" style="border:1px solid #ccc;">
+5. Login into Router Configuration Page. In this case, it has a domain name, [tplinkwifi.net](http://tplinkwifi.net/webpages/index.html#/)
+For your router, the address can be found in the user manual, or you can use the default gateway of your device when 
+connected to the router, as this should always direct you to your router configuration page.
+
+```
+# Windows
+ipconfig
+
+# Linux
+route -n
+```
+These commands will show the default gateway on a windows or linux device.
+
+<img src="../Documentation/Images/DevelopmentSetup/IPConfigExample.png" alt="Default Gateway Example" width="600" style="border:1px solid #ccc;">
+
+Example of `ipconfig` output on Windows 11 cmd showing the default gateway `192.168.0.1`.
+
+6. Inside the configuration page accessed through a web-browser with either the domain name or the default gateway, 
+we can create our private LAN.
+   <img src="../Documentation/Images/DevelopmentSetup/PublicNetwork.png" alt="Default Gateway Example" width="600" style="border:1px solid #ccc;">
+
 
 ### Optional: Use travel router as a wireless WAN uplink
 ### Connect Laptop to Router
