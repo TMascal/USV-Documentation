@@ -97,3 +97,7 @@ linked established. Blinking means data is being transferred.
 ### SSH from Computer to Raspberry Pi
 ### Setup VSCode Server
 ### Install VSCode Server Client Extensions on Computer
+### Bonus: Direct X11 Forwarding
+> https://yunusmuhammad007.medium.com/jetson-nano-vs-code-x11-forwarding-over-ssh-d97fd2290973
+
+Excellent Resource that is mostly accurate. It just has some outdates steps for setting up a vcxsrv server. Will outline later.
